@@ -5,7 +5,7 @@ Site institucional simples para a Comunidade Templo dos Vencedores.
 > **Status:** projeto em desenvolvimento — HTML estrutural pronto, próxima etapa é aplicar CSS responsivo.
 
 ## 📸 Preview
-![Screenshot da home](imagens/screenshot-home.png)
+![Screenshot da home](imagens/screenshot-home.gif)
 
 ## ✨ Funcionalidades
 - Menu de navegação entre páginas
@@ -19,6 +19,6 @@ Site institucional simples para a Comunidade Templo dos Vencedores.
 
 ## 🚀 Como usar
 bash
-git clone https://github.com/seu-usuario/templo-dos-vencedores.git
+git clone https://github.com/KatherineQdt/templo-dos-vencedores.git
 cd templo-dos-vencedores
 # abra index.html no navegador
