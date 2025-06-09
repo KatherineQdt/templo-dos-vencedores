@@ -5,7 +5,7 @@ Site institucional simples para a Comunidade Templo dos Vencedores.
 > **Status:** projeto em desenvolvimento — HTML estrutural pronto, próxima etapa é aplicar CSS responsivo.
 
 ## 📸 Preview
-![Screenshot da home](imagens/screenshot-home.gif)
+![Screenshot da home](assets/imagens/screenshot-home.gif)
 
 ## ✨ Funcionalidades
 - Menu de navegação entre páginas
