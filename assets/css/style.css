@@ -7,6 +7,10 @@
         color: #1A1A1A; /* Preto suave */
         background-color: #F5F5F5; /* Branco quebrado */
         line-height: 1.6;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
     }
 
     header {
@@ -41,29 +45,51 @@
         margin: 0 auto;
     }
 
-    footer {
-        background-color: #1A1A1A;
-        color: #F5F5F5;
-        text-align: center;
-        padding: 10px;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-    }
-
     h2{
         color: #2D545E; /* Azul petróleo para títulos */
         border-bottom: 2px solid #C0A080; /* Dourado como detalhe */
         padding-bottom: 5px;
     }
 
-    .destaque {
-        background-color: #C0A080; /* Dourado */
+    main {
+            flex: 1; /* Cresce para ocupar o espaço disponível */
+            padding: 20px;
+        }
+
+    .botao { /* Opção de Gradiente */
+        background: linear-gradient(to right, #2D545E, #3A5A78);
         color: white;
-        padding: 10px 15px;
-        border-radius: 5px;
+        border: none;
+        border-radius: 4px;
+        padding: 12px 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: all 0.3s ease;
         display: inline-block;
         margin-top: 10px;
+    }
+
+    .botao:hover {
+        background: linear-gradient(to right, #1E3A5F, #2D545E);
+        transform: scale(1.02);
+    }
+
+    .destaque {
+        background-color: #C0A080; /* Dourado */
+        color: #1A1A1A;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .destaque:hover {
+        background-color: #B38B6D; /* Dourado mais escuro */
+        border-color: #1A1A1A; /* Borda preta */
+        transform: scale(1.02);
     }
 
     footer {
@@ -71,7 +97,8 @@
         color: #F5F5F5;
         text-align: center;
         padding: 15px;
-        position: fixed;
+        margin-top: auto;
+        /*position: fixed; Rodapé*/
         bottom: 0;
         width: 100%;
     }
