@@ -57,17 +57,17 @@
         }
 
     .botao { /* Opção de Gradiente */
-        background: linear-gradient(to right, #2D545E, #3A5A78);
+        background: linear-gradient(to right, #386874, #486f94);
         color: white;
         border: none;
         border-radius: 4px;
-        padding: 12px 24px;
+        padding: 9px 14px;
         font-weight: bold;
-        text-transform: uppercase;
+        /*text-transform: uppercase;*/
         letter-spacing: 1px;
         transition: all 0.3s ease;
         display: inline-block;
-        margin-top: 10px;
+        margin-top: 9px;
     }
 
     .botao:hover {
